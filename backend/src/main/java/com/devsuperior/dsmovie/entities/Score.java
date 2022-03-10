@@ -19,6 +19,7 @@ public class Score {
 	
 	
 	
+	//Set da Chave estrangeira
 	
 	//Setar o movie da ScorePK
 	public void setMovie(Movie movie) {
