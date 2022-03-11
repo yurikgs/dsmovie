@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './styles.css'
-import Navbar from 'components/Navbar';
+import Navbrar from 'components/Navbrar';
 
 function Form() {
 
@@ -15,7 +15,7 @@ function Form() {
     return (
 
         <>
-        <Navbar/>
+        <Navbrar/>
         <div className="dsmovie-form-container">
             <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
             <div className="dsmovie-card-bottom-container">
