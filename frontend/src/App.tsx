@@ -10,19 +10,17 @@ import Navbar from 'components/Navbar';
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <BrowserRouter>      
-      <Routes>
-        <Route path="/" element={<Listing/>}></Route>
-        <Route path="/form">
-           <Route path=":movieId" element={<Form/>} ></Route>
-        </Route>
-      </Routes>
-    </BrowserRouter>
-    </>
+    // <BrowserRouter>
+
+    //   <Routes>
+    //     <Route path="/" element={<Listing/>}></Route>
+    //     <Route path="/form">
+    //        <Route path=":movieId" element={<Form/>} ></Route>
+    //     </Route>
+    //   </Routes>
+    // </BrowserRouter>
     
-      
+    <Navbar/>      
 
   )
 }
