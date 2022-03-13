@@ -11,7 +11,7 @@ function Navbrar() {
         <div className="dsmovie-nav-content text-white">
             
             <Link to="/" >
-               <h1 className="text-white text-decoration-none">DSMovie</h1>
+               <h1 className="text-white text-decoration-none link-hover">DSMovie</h1>
             </Link>
             
             
