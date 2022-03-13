@@ -3,7 +3,7 @@ import MovieCard from "components/MovieCard"
 import Pagination from "components/Pagination"
 import { useEffect, useState } from "react"
 import { BASE_URL } from "utils/requests"
-import { Movie, MoviePage } from "types/movie"
+import { MoviePage } from "types/movie"
 
 function Listing() {
 
@@ -31,9 +31,15 @@ function Listing() {
    }, [pageNumber])
   
 
+   //Função para chamar o hook em subcomponents
+   const handlePageChange = (newPageNumber: number) => {
+         setPageNumber(newPageNumber)
+   }
+
+
   return (
     <>
-    <Pagination/>
+    <Pagination page={page} onChange={handlePageChange} />
 
         <div className="container mt-5">
           <div className="row">
