@@ -10,11 +10,6 @@ type Props = {
   movieId: string
 }
 
-type ScoreDto = {
- movieId: number
- email: string
- score: number
-}
 
 function FormCard ({ movieId }: Props) {
 
