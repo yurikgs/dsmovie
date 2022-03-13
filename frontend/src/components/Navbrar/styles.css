@@ -15,7 +15,7 @@ a:hover {
 }
 
 link-hover:hover {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 .dsmovie-nav-content {
