@@ -48,7 +48,7 @@ public class ScoreService {
 		
 		//persistencia de score
 		
-		dbScore.save(score);
+		dbScore.saveAndFlush(score);
 		
 		// configuração da nova média do filme
 		
@@ -57,8 +57,8 @@ public class ScoreService {
 			soma += s.getValue();
 		}
 		
-		double media = soma/movie.getScores()
-.size();
+		double media = soma/(movie.getScores()
+.size());
 		
 		// salvando nova media e count do filme
 		
